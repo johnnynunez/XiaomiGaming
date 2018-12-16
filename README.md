@@ -1,36 +1,22 @@
-# Xiaomi Mi Gaming Laptop
+# Xiaomi Mi Laptop Gaming" 2018
 
-SUPPORT: Mojave<br />
-
+SUPPORT: Only Mojave<br />
 CPU: I7-8750h <br />
+
 2. What's Working <br />
-
 Native power management <br />
-
 Intel GPU <br />
-
 Audio (AppleALC) <br />
-
 TrackPad <br />
-
 HDMI video and audio <br />
-
 Bluetooth <br />
-
 USB 3.0 <br />
-
 Brightness key <br />
-
 Usb speed <br />
-
 Built-in camera <br />
-
 Built-in mic <br />
-
 3. What's Not Working <br />
-
 Wifi Intel <br />
-
 ## Credits
 
 - [stevezhengshiqi](https://github.com/stevezhengshiqi) He is a good developer. I'm learning a lot about how to patch problems. Thanks for PCIList.aml and more.
