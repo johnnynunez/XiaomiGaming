@@ -107,7 +107,7 @@
 					<key>Comment</key>
 					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1NUQQCgCZNT
@@ -296,7 +296,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>igfxrst=1 dart=0 -cdfon gfxcflbklt=1</string>
+		<string>nvidiaweb=true igfxcflbklt=1 dart=0</string>
 		<key>HibernationFixup</key>
 		<true/>
 		<key>NeverHibernate</key>
@@ -404,6 +404,8 @@
 				<data>
 				AACbPg==
 				</data>
+				<key>enable-cfl-backlight-fix</key>
+				<integer>1</integer>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
@@ -521,6 +523,8 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
+		<key>ig-platform-id</key>
+		<string>0x3E9B0000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -639,6 +643,24 @@
 				<key>Replace</key>
 				<data>
 				AAAAAAAAAAAAAAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				RiV1VCUwNHgA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleBacklight</string>
+				<key>Replace</key>
+				<data>
+				RiV1VHh4eHgA
 				</data>
 			</dict>
 		</array>
