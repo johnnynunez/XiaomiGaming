@@ -424,6 +424,8 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
+		<key>AppleIntelCPUPM</key>
+		<true/>
 		<key>AppleRTC</key>
 		<true/>
 		<key>DellSMBIOSPatch</key>
