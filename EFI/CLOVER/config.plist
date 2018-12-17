@@ -296,7 +296,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>nvidiaweb=true igfxcflbklt=1 dart=0</string>
+		<string>igfxcflbklt=1 dart=0</string>
 		<key>HibernationFixup</key>
 		<true/>
 		<key>NeverHibernate</key>
@@ -404,8 +404,6 @@
 				<data>
 				AACbPg==
 				</data>
-				<key>enable-cfl-backlight-fix</key>
-				<integer>1</integer>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
