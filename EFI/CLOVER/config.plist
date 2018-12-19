@@ -165,6 +165,48 @@
 					WFBSVwI=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(__Q0F,0,N) to XQ0F</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EwRgg=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEwRgg=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_Q10,0,N) to XQ10</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExMAg=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMAg=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQCgCZNT
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQCgCZNT
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -202,7 +244,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>igfxcflbklt=1 dart=0 kext-dev-mode=1 -lilubetaall</string>
+		<string>-lilubetaall dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -419,8 +461,6 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>ig-platform-id</key>
-		<string>0x3E9B0000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
