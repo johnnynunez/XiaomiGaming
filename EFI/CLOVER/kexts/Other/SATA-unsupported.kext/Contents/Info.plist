@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleGetInfoString</key>
-	<string>Version 0.5.0, Copyright 2018, RehabMan (GPLv2)</string>
+	<string>Version 0.9.2, Copyright 2018, RehabMan (GPLv2)</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.rehabman.injector.SATA-unsupported</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -20,7 +20,27 @@
 	<string>0.9.2</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>Intel100SeriesAHCI-unsupported</key>
+		<key>IntelRAID-AHCI-unsupported</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleAHCIPort</string>
+			<key>Chipset Name</key>
+			<string>Intel AHCI RAID</string>
+			<key>IOClass</key>
+			<string>AppleIntelPchSeriesAHCI</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>pci8086,282a</string>
+				<string>pci8086,2822</string>
+			</array>
+			<key>IOProbeScore</key>
+			<integer>900</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Vendor Name</key>
+			<string>Intel</string>
+		</dict>
+		<key>Intel100Series-AHCI-unsupported</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleAHCIPort</string>
@@ -32,17 +52,15 @@
 			<array>
 				<string>pci8086,a103</string>
 				<string>pci8086,9d03</string>
-				<string>pci8086,282a</string>
-				<string>pci8086,2822</string>
 			</array>
 			<key>IOProbeScore</key>
-			<integer>2000</integer>
+			<integer>900</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>Vendor Name</key>
 			<string>Intel</string>
 		</dict>
-		<key>Intel200SeriesAHCI-unsupported</key>
+		<key>Intel200Series-AHCI-unsupported</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleAHCIPort</string>
@@ -55,13 +73,13 @@
 				<string>pci8086,a282</string>
 			</array>
 			<key>IOProbeScore</key>
-			<integer>2000</integer>
+			<integer>900</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>Vendor Name</key>
 			<string>Intel</string>
 		</dict>
-		<key>Intel300SeriesAHCI-unsupported</key>
+		<key>Intel300Series-AHCI-unsupported</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleAHCIPort</string>
@@ -72,9 +90,10 @@
 			<key>IONameMatch</key>
 			<array>
 				<string>pci8086,a353</string>
+				<string>pci8086,9dd3</string>
 			</array>
 			<key>IOProbeScore</key>
-			<integer>2000</integer>
+			<integer>900</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>Vendor Name</key>
