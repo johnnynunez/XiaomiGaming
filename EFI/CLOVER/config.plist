@@ -399,9 +399,9 @@
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<false/>
-			<key>FixOwnership</key>
 			<true/>
+			<key>FixOwnership</key>
+			<false/>
 			<key>Inject</key>
 			<false/>
 		</dict>
@@ -463,7 +463,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>BGM</string>
+		<string>Xiaomi</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
