@@ -581,7 +581,7 @@
 				<key>Comment</key>
 				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				SU9LaXQ=
@@ -599,7 +599,7 @@
 				<key>Comment</key>
 				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				SU9LaXQ=
