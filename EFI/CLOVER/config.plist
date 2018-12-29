@@ -331,7 +331,7 @@
 				<key>hda-idle-support</key>
 				<string>1</string>
 				<key>layout-id</key>
-				<integer>5</integer>
+				<integer>11</integer>
 				<key>model</key>
 				<string>Realtek ALC1220 Audio Controller</string>
 			</dict>
