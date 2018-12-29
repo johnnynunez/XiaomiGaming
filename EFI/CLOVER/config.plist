@@ -203,16 +203,44 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change Method(_Q10,0,N) to XQ10</string>
+					<string>change Method(_Q10,0,N) to XQ10, optionally pair with SSDT-FN.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					X1ExMAg=
+					X1ExMAA=
 					</data>
 					<key>Replace</key>
 					<data>
-					WFExMAg=
+					WFExMAA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_Q11,0,N) to XQ11, optionally pair with SSDT-FN.aml</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X1ExMQA=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMQA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename Method(_Q0F,0) to Method(XQ0F,0)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EwRgA=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEwRgA=
 					</data>
 				</dict>
 				<dict>
