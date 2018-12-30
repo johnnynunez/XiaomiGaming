@@ -35,20 +35,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>Rename TPD0._CRS to XCRS</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					Q1JTAKAO
-					</data>
-					<key>Replace</key>
-					<data>
-					WENSU6AO
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
 					<false/>
@@ -189,20 +175,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change Method(__Q0F,0,N) to XQ0F</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1EwRgg=
-					</data>
-					<key>Replace</key>
-					<data>
-					WFEwRgg=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change Method(_Q10,0,N) to XQ10, optionally pair with SSDT-FN.aml</string>
 					<key>Disabled</key>
 					<false/>
@@ -213,20 +185,6 @@
 					<key>Replace</key>
 					<data>
 					WFExMAA=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(_Q11,0,N) to XQ11, optionally pair with SSDT-FN.aml</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1ExMQA=
-					</data>
-					<key>Replace</key>
-					<data>
-					WFExMQA=
 					</data>
 				</dict>
 				<dict>
@@ -331,7 +289,7 @@
 				<key>hda-idle-support</key>
 				<string>1</string>
 				<key>layout-id</key>
-				<integer>11</integer>
+				<integer>2</integer>
 				<key>model</key>
 				<string>Realtek ALC1220 Audio Controller</string>
 			</dict>
