@@ -203,16 +203,30 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
+					<string>Rename PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					X1NUQQCgCZNT
+					X0NSUwAIUg==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFNUQQCgCZNT
+					WENSUwAIUg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename Method(TPD0._CRS. to XCRS)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0NSUwCgDg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WENSUwCgDg==
 					</data>
 				</dict>
 			</array>
