@@ -37,7 +37,7 @@
 					<key>Comment</key>
 					<string>Rename Method(TPD0._CRS. to XCRS)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0NSUwCgDg==
@@ -51,14 +51,14 @@
 					<key>Comment</key>
 					<string>Rename PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
-					X0NSUwAIUg==
+					X1NUQQCgCg==
 					</data>
 					<key>Replace</key>
 					<data>
-					WENSUwAIUg==
+					WFNUQQCgCg==
 					</data>
 				</dict>
 				<dict>
