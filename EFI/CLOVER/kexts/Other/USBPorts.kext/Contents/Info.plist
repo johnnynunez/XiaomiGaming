@@ -81,9 +81,7 @@
 					<key>HS08</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>BwAAAA==</data>
+						<integer>9</integer>
 					</dict>
 					<key>HS10</key>
 					<dict>
@@ -126,6 +124,13 @@
 						<integer>3</integer>
 						<key>port</key>
 						<data>FAAAAA==</data>
+					</dict>
+					<key>SS05</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>port</key>
+						<data>FQAAAA==</data>
 					</dict>
 					<key>SS06</key>
 					<dict>
