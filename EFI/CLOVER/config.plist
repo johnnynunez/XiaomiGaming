@@ -29,7 +29,7 @@
 				<key>FixRTC</key>
 				<false/>
 				<key>FixTMR</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
