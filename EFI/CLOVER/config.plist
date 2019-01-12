@@ -37,7 +37,7 @@
 					<key>Comment</key>
 					<string>Rename Method(TPD0._CRS. to XCRS)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0NSUwCgDg==
