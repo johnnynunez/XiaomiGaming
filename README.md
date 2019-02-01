@@ -3,6 +3,10 @@
 SUPPORT: Only Mojave<br />
 CPU: I7-8750h <br />
 
+2. NVIDIA GPU <br />
+If you want enable nvidia gpu, remove -wegnoegpu on Boot arguments.
+Then install nvidia drivers.
+
 2. What's Working <br />
 Native power management <br />
 Intel GPU <br />
