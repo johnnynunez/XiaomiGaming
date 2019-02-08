@@ -31,7 +31,7 @@ You will need to do a few tweaks to make it work:
 
 
 
-3. What's Working <br />
+# What's Working <br />
 Native power management <br />
 Intel GPU <br />
 Audio (AppleALC) <br />
