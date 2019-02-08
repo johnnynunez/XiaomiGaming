@@ -31,7 +31,7 @@ You will need to do a few tweaks to make it work:
 
 
 
-# What's Working <br />
+## What's Working <br />
 Native power management <br />
 Intel GPU <br />
 Audio (AppleALC) <br />
@@ -43,7 +43,7 @@ Brightness key <br />
 Usb speed <br />
 Built-in camera <br />
 Built-in mic <br />
-3. What's Not Working <br />
+## What's Not Working <br />
 Wifi Intel <br />
 ## Credits
 
