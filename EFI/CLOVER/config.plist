@@ -37,6 +37,20 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>change RTC to XRTC, pair with SSDT-RTC.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					UlRDXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFJUQw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change Method(__Q0F,0,N) to XQ0F</string>
 					<key>Disabled</key>
 					<false/>
@@ -656,7 +670,7 @@ CannonLake?</string>
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleRTC</key>
-		<false/>
+		<true/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
 		<key>ForceKextsToLoad</key>
@@ -754,20 +768,18 @@ CannonLake?</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>disable port limit in XHCI kext (credit DalianSky,Ricky)</string>
+				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				g/sPD4OPBAAA
+				AEFQUExFIFNTRAA=
 				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				g/sPkJCQkJCQ
+				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
 		</array>
