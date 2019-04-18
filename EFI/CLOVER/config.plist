@@ -29,26 +29,12 @@
 				<key>FixIPIC</key>
 				<false/>
 				<key>FixRTC</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
 				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change RTC to XRTC, pair with SSDT-RTC.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					UlRDXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFJUQw==
-					</data>
-				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(__Q0F,0,N) to XQ0F</string>
@@ -221,7 +207,7 @@
 					<key>Comment</key>
 					<string>Rename Method(TPD0._CRS. to XCRS)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0NSUwCgDg==
@@ -386,6 +372,8 @@
 					</data>
 				</dict>
 			</array>
+			<key>Rtc8Allowed</key>
+			<true/>
 		</dict>
 		<key>DropTables</key>
 		<array>
@@ -414,7 +402,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>igfxcflbklt=1 -wegnoegpu dart=0 -cdfon</string>
+		<string>igfxcflbklt=1 -wegnoegpu dart=0 -cdfon gfxrst=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -575,7 +563,7 @@ CannonLake?</string>
 			<key>FixOwnership</key>
 			<true/>
 			<key>HighCurrent</key>
-			<true/>
+			<false/>
 			<key>Inject</key>
 			<false/>
 		</dict>
@@ -655,7 +643,7 @@ CannonLake?</string>
 		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -775,6 +763,8 @@ CannonLake?</string>
 				<data>
 				AEFQUExFIFNTRAA=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
@@ -816,7 +806,7 @@ CannonLake?</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.200.252.0.0</string>
+		<string>220.250.320.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -839,7 +829,7 @@ CannonLake?</string>
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>Detect</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
