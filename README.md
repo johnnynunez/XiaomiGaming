@@ -1,3 +1,4 @@
+![GitHub release](https://img.shields.io/github/release/johnnync13/XiaomiGaming.svg)
 # I'm a Student Engineering, life and my university career is expensive and work is hard. My repositories are free, please, reward me. Thank you
 # [Reward me](https://www.paypal.me/johnnync13)<br />
 # Xiaomi Mi Laptop Gaming" 2018
