@@ -225,7 +225,7 @@
 					<key>Comment</key>
 					<string>Rename PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1NUQQCgCg==
