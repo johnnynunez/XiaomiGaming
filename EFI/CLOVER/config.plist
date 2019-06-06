@@ -375,6 +375,20 @@
 					WFBSVwI=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename SYN2393 to SYNA0000</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					U1lOQTIzOTM=
+					</data>
+					<key>Replace</key>
+					<data>
+					U1lOQTAwMDA=
+					</data>
+				</dict>
 			</array>
 			<key>Rtc8Allowed</key>
 			<true/>
