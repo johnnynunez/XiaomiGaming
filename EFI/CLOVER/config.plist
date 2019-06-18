@@ -223,20 +223,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1NUQQCgCg==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQCgCg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
 					<false/>
@@ -373,6 +359,24 @@
 					<key>Replace</key>
 					<data>
 					WFBSVwI=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method STA to XSTA (GPIO) </string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					R1BJMA==
 					</data>
 				</dict>
 			</array>
