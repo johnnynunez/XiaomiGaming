@@ -19,7 +19,7 @@
 				<key>AddMCHC</key>
 				<true/>
 				<key>AddPNLF</key>
-				<true/>
+				<false/>
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixADP1</key>
@@ -636,9 +636,9 @@
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
-		<true/>
+		<false/>
 		<key>SetIntelMaxBacklight</key>
-		<true/>
+		<false/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -744,8 +744,6 @@
 		<true/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
-		<key>ForceKextsToLoad</key>
-		<array/>
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
