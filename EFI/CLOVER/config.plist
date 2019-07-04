@@ -39,6 +39,20 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0ZYMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					SUdQVQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>Rename _CRS  to XCRS</string>
 					<key>Disabled</key>
 					<false/>
@@ -867,15 +881,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
+		<string>04/22/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.1809171524</string>
+		<string>MBP151.88Z.F000.B00.1904222000</string>
 		<key>Board-ID</key>
-		<string>Mac-827FB448E656EC26</string>
+		<string>Mac-937A206F2EE63C01</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C028471004NJP4F8C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -887,7 +903,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.250.320.0.0</string>
+		<string>220.260.170.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -903,7 +919,11 @@
 		<key>PlatformFeature</key>
 		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,2</string>
+		<string>MacBookPro15,1</string>
+		<key>SerialNumber</key>
+		<string>C02XQFYGKGYG</string>
+		<key>SmUUID</key>
+		<string>6A431CCC-CEB0-4A64-B213-F7AAF9A9DB8D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
