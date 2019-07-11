@@ -349,7 +349,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>igfxcflbklt=1 darkwake=0 gfxrst=1 dart=0 -wegnoegpu</string>
+		<string>igfxcflbklt=1 darkwake=0 gfxrst=1 dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -373,8 +373,10 @@
 	<dict>
 		<key>Audio</key>
 		<dict>
+			<key>AFGLowPowerState</key>
+			<false/>
 			<key>Inject</key>
-			<string>No</string>
+			<integer>11</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -385,6 +387,8 @@
 			<key>#Kaby Lake-Comment</key>
 			<string>To avoid automatic Clover fake device-id (Skylake) injection</string>
 		</dict>
+		<key>LANInjection</key>
+		<true/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
@@ -649,6 +653,8 @@
 			<true/>
 			<key>HighCurrent</key>
 			<true/>
+			<key>Inject</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>GUI</key>
@@ -662,18 +668,6 @@
 				<dict>
 					<key>Disabled</key>
 					<false/>
-					<key>Hidden</key>
-					<false/>
-					<key>Ignore</key>
-					<false/>
-					<key>NoCaches</key>
-					<false/>
-					<key>Type</key>
-					<string>OSXRecovery</string>
-				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
 					<key>Ignore</key>
 					<false/>
 					<key>Title</key>
@@ -683,10 +677,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>Hide</key>
-		<array>
-			<string>Preboot</string>
-		</array>
 		<key>Language</key>
 		<string>en:0</string>
 		<key>Mouse</key>
@@ -729,7 +719,7 @@
 			SENBLUVBQwogAAU=
 			</data>
 			<key>Inject</key>
-			<true/>
+			<false/>
 			<key>ProductID</key>
 			<string>0x14D4</string>
 			<key>VendorID</key>
@@ -742,7 +732,7 @@
 			<key>Intel</key>
 			<false/>
 			<key>NVidia</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
@@ -883,6 +873,8 @@
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02823100GUJH4RA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -911,6 +903,10 @@
 		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
+		<key>SerialNumber</key>
+		<string>C02WTEZBJHCD</string>
+		<key>SmUUID</key>
+		<string>9D70EA0A-5BA0-4952-B396-EA723D5A29FA</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -919,6 +915,8 @@
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
+		<true/>
+		<key>NvidiaWeb</key>
 		<true/>
 	</dict>
 </dict>
