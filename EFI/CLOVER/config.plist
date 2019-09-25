@@ -325,11 +325,11 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<false/>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>RtcHibernateAware</key>
@@ -359,8 +359,6 @@
 			<key>#Kaby Lake-Comment</key>
 			<string>To avoid automatic Clover fake device-id (Skylake) injection</string>
 		</dict>
-		<key>IntelMaxValue</key>
-		<string>0xFFFF</string>
 		<key>LANInjection</key>
 		<true/>
 		<key>Properties</key>
@@ -368,7 +366,7 @@
 			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,0,0</string>
 				<key>device_type</key>
 				<string>Host bridge</string>
 				<key>model</key>
@@ -377,7 +375,7 @@
 			<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,1,0</string>
 				<key>device_type</key>
 				<string>PCI bridge</string>
 				<key>model</key>
@@ -386,7 +384,7 @@
 			<key>PciRoot(0x0)/Pci(0x12,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,18,0</string>
 				<key>device_type</key>
 				<string>Signal processing controller</string>
 				<key>model</key>
@@ -395,7 +393,7 @@
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,20,0</string>
 				<key>device_type</key>
 				<string>USB controller</string>
 				<key>model</key>
@@ -404,7 +402,7 @@
 			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,20,2</string>
 				<key>device_type</key>
 				<string>RAM memory</string>
 				<key>model</key>
@@ -413,7 +411,7 @@
 			<key>PciRoot(0x0)/Pci(0x14,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,20,3</string>
 				<key>device_type</key>
 				<string>Network controller</string>
 				<key>model</key>
@@ -422,7 +420,7 @@
 			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,21,0</string>
 				<key>device_type</key>
 				<string>Serial bus controller</string>
 				<key>model</key>
@@ -431,7 +429,7 @@
 			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,22,0</string>
 				<key>device_type</key>
 				<string>Communication controller</string>
 				<key>model</key>
@@ -440,7 +438,7 @@
 			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,23,0</string>
 				<key>device_type</key>
 				<string>SATA controller</string>
 				<key>model</key>
@@ -449,7 +447,7 @@
 			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,29,0</string>
 				<key>device_type</key>
 				<string>PCI bridge</string>
 				<key>model</key>
@@ -458,16 +456,16 @@
 			<key>PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal@6,0,0</string>
+				<string>Internal@0,29,0/0,0</string>
 				<key>device_type</key>
 				<string>Non-Volatile memory controller</string>
 				<key>model</key>
-				<string>NVMe SSD Controller SM981/PM981</string>
+				<string>NVMe SSD Controller SM981/PM981/PM983</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1d,0x6)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,29,6</string>
 				<key>device_type</key>
 				<string>PCI bridge</string>
 				<key>model</key>
@@ -476,7 +474,7 @@
 			<key>PciRoot(0x0)/Pci(0x1d,0x6)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal@7,0,0</string>
+				<string>Internal@0,29,6/0,0</string>
 				<key>device_type</key>
 				<string>Ethernet controller</string>
 				<key>model</key>
@@ -485,7 +483,7 @@
 			<key>PciRoot(0x0)/Pci(0x1d,0x7)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,29,7</string>
 				<key>device_type</key>
 				<string>PCI bridge</string>
 				<key>model</key>
@@ -494,7 +492,7 @@
 			<key>PciRoot(0x0)/Pci(0x1d,0x7)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal@8,0,0</string>
+				<string>Internal@0,29,7/0,0</string>
 				<key>device_type</key>
 				<string>Unassigned class</string>
 				<key>model</key>
@@ -503,7 +501,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,0</string>
 				<key>device_type</key>
 				<string>ISA bridge</string>
 				<key>model</key>
@@ -512,20 +510,22 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,3</string>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<integer>2</integer>
+				<data>
+				AgAAAA==
+				</data>
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,4</string>
 				<key>device_type</key>
 				<string>SMBus</string>
 				<key>model</key>
@@ -534,7 +534,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x5)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,5</string>
 				<key>device_type</key>
 				<string>Serial bus controller</string>
 				<key>model</key>
@@ -547,48 +547,63 @@
 				AACbPg==
 				</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,2,0</string>
+				<key>AAPL00,override-no-connect</key>
+				<string></string>
 				<key>device-id</key>
 				<data>
 				mz4AAA==
 				</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
-				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con1-enable</key>
+				<key>enable-lspcon-support</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con1-type</key>
+				<key>framebuffer-camellia</key>
 				<data>
-				AAgAAA==
+				AAAAAA==
 				</data>
-				<key>framebuffer-con2-enable</key>
+				<key>framebuffer-con0-alldata</key>
+				<data>
+				AAASAAIAAACYAAAAAQUSAAAIAACHAQAA/wQKAAAEAACH
+				AQAA
+				</data>
+				<key>framebuffer-con0-enable</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con2-index</key>
+				<key>framebuffer-con1-has-lspcon</key>
 				<data>
-				/////w==
-				</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
+				AQAAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
 				</data>
+				<key>framebuffer-flags</key>
+				<data>
+				CxMAAA==
+				</data>
+				<key>framebuffer-memorycount</key>
+				<data>
+				AwAAAA==
+				</data>
+				<key>framebuffer-mobile</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
+				</data>
+				<key>framebuffer-pipecount</key>
+				<data>
+				AwAAAA==
 				</data>
 				<key>framebuffer-portcount</key>
 				<data>
@@ -602,13 +617,15 @@
 				<data>
 				AAAAgA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>model</key>
-				<string>UHD Graphics 630 (Mobile)</string>
+				<string>Intel UHD Graphics 630 (Mobile)</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,8,0</string>
 				<key>device_type</key>
 				<string>System peripheral</string>
 				<key>model</key>
@@ -642,6 +659,18 @@
 				<dict>
 					<key>Disabled</key>
 					<false/>
+					<key>Hidden</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>NoCaches</key>
+					<false/>
+					<key>Type</key>
+					<string>OSXRecovery</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
 					<key>Ignore</key>
 					<false/>
 					<key>Title</key>
@@ -651,8 +680,10 @@
 				</dict>
 			</array>
 		</dict>
-		<key>Language</key>
-		<string>en:0</string>
+		<key>Hide</key>
+		<array>
+			<string>Preboot</string>
+		</array>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -685,19 +716,8 @@
 		<string>0x3e9b0000</string>
 		<key>EDID</key>
 		<dict>
-			<key>Custom</key>
-			<data>
-			AP///////wANrtQUAAAAACQaAQSlHxF4Aihll1lUjiceUFQAAAAB
-			AQEBAQEBAQEBAQEBAQEBtDuASnE4NEBQPGgANa0QAAAYAAAA/gBO
-			MTQwSENBLUVBQwogAAAA/gBDTU4KICAgICAgICAgAAAA/gBOMTQw
-			SENBLUVBQwogAAU=
-			</data>
 			<key>Inject</key>
-			<false/>
-			<key>ProductID</key>
-			<string>0x14D4</string>
-			<key>VendorID</key>
-			<string>0x0DAE</string>
+			<true/>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -884,8 +904,6 @@
 		<string>Detect</string>
 		<key>InjectSystemID</key>
 		<true/>
-		<key>NvidiaWeb</key>
-		<false/>
 	</dict>
 </dict>
 </plist>

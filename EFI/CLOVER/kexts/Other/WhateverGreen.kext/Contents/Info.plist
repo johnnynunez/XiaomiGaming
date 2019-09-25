@@ -29,17 +29,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>10G8</string>
+	<string>11A420a</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>18G74</string>
+	<string>19A547</string>
 	<key>DTSDKName</key>
-	<string>macosx10.14</string>
+	<string>macosx10.15</string>
 	<key>DTXcode</key>
-	<string>1030</string>
+	<string>1100</string>
 	<key>DTXcodeBuild</key>
-	<string>10G8</string>
+	<string>11A420a</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>AppleIntelPanelA</key>
@@ -904,6 +904,21 @@
 				ABEAAAKPA1MEWgWhB64KPQ4UE3QaXiQYMalEWV52gxG2
 				x/97
 				</data>
+				<key>F16Ia041</key>
+				<data>
+				ABEAAANpBc0IzgyhEWgXRx5yJ0Ax1T6ITZ5fknS7jaaq
+				zMzM
+				</data>
+				<key>F16Ia042</key>
+				<data>
+				ABEAAANpBc0IzgyhEWgXRx5yJ0Ax1T6ITZ5fknS7jaaq
+				zMzM
+				</data>
+				<key>F16Ia043</key>
+				<data>
+				ABEAAANpBc0IzgyhEWgXRx5yJ0Ax1T6ITZ5fknS7jaaq
+				zMzM
+				</data>
 				<key>F16Ta01a</key>
 				<data>
 				ABEAAAAYACcAOgBSAHEAlgDEAPwBQAGTAfYCbgL+A6oE
@@ -1054,6 +1069,8 @@
 			<string>IOKit</string>
 		</dict>
 	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.8</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2018 vit9696. All rights reserved.</string>
 	<key>OSBundleCompatibleVersion</key>
