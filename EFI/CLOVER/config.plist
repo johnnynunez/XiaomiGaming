@@ -51,6 +51,18 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>change Method STA to XSTA (GPIO) </string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1NUQQ==</data>
+					<key>Replace</key>
+					<data>WFNUQQ==</data>
+					<key>TgtBridge</key>
+					<data>R1BJMA==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change Method(__Q0F,0,N) to XQ0F</string>
 					<key>Disabled</key>
 					<false/>
@@ -171,7 +183,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
+					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -181,13 +193,33 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EC0 to EC</string>
+					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUMwXw==</data>
+					<data>X1BUUwE=</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>WlBUUwE=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>X1dBSwk=</data>
+					<key>Replace</key>
+					<data>WldBSwk=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _DSM to XDSM</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X0RTTQ==</data>
+					<key>Replace</key>
+					<data>WERTTQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -201,25 +233,13 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change Method STA to XSTA (GPIO) </string>
+					<string>Rename EC0 to EC</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1NUQQ==</data>
+					<data>RUMw</data>
 					<key>Replace</key>
-					<data>WFNUQQ==</data>
-					<key>TgtBridge</key>
-					<data>R1BJMA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename MATH._STA and LDR2._STA to XSTA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1NUQQCgDZNQ</data>
-					<key>Replace</key>
-					<data>WFNUQQCgDZNQ</data>
+					<data>RUNf</data>
 				</dict>
 			</array>
 			<key>Rtc8Allowed</key>
