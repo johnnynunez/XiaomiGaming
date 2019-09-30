@@ -50,6 +50,8 @@ Built-in mic <br />
 Wifi Intel <br />
 ## Credits
 
+-[dizhenhuoshan](https://github.com/dizhenhuoshan/XiaoMiGaming-8th-Hackintosh) He has the laptop and his EFI. It brings solutions that I have not been able to fix
+
 - [stevezhengshiqi](https://github.com/stevezhengshiqi) He is a good developer. I'm learning a lot about how to patch problems. Thanks for PCIList.aml and more.
 - [dggomes](https://github.com/dggomes) Nvidia Drivers Installation. 
 
