@@ -269,7 +269,7 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<true/>
+		<false/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -277,11 +277,16 @@
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>RtcHibernateAware</key>
-		<false/>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
 		<integer>5</integer>
+	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>HWPEnable</key>
+		<true/>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.14.x with native CoffeeLake support</string>
@@ -296,6 +301,8 @@
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
+		<key>LANInjection</key>
+		<true/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
@@ -530,8 +537,6 @@
 				<string>Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model</string>
 			</dict>
 		</dict>
-		<key>LANInjection</key>
-		<true/>
 		<key>SetIntelBacklight</key>
 		<false/>
 		<key>SetIntelMaxBacklight</key>
@@ -617,7 +622,7 @@
 		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Inject</key>
 		<dict>
