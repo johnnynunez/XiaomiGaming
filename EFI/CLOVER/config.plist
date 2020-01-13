@@ -39,6 +39,76 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>CNVW:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>Q05WVw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>GLAN:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>R0xBTg==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>HDAS:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>SERBUw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>XDCI:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>WERDSQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>XHC:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>WEhDXw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>RUMwXw==</data>
+					<key>Replace</key>
+					<data>RUNfXw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>Rename _CRS  to XCRS</string>
 					<key>Disabled</key>
 					<false/>
@@ -205,7 +275,7 @@
 					<key>Comment</key>
 					<string>change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X1dBSwk=</data>
 					<key>Replace</key>
@@ -215,7 +285,7 @@
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X0RTTQ==</data>
 					<key>Replace</key>
@@ -230,16 +300,6 @@
 					<data>R1BSVwI=</data>
 					<key>Replace</key>
 					<data>WFBSVwI=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>RUMw</data>
-					<key>Replace</key>
-					<data>RUNf</data>
 				</dict>
 			</array>
 			<key>Rtc8Allowed</key>
@@ -458,7 +518,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>AgAAAA==</data>
+				<integer>2</integer>
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
 			</dict>
@@ -670,6 +730,16 @@
 				<key>Replace</key>
 				<data>igKEwOtC</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>ILniAAAADzA=</data>
+				<key>Replace</key>
+				<data>ILniAAAAkJA=</data>
+			</dict>
 		</array>
 		<key>KextsToPatch</key>
 		<array>
@@ -729,13 +799,13 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>11/14/2019</string>
+		<string>12/09/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP153.88Z.F000.B00.1911142110</string>
+		<string>MBP152.88Z.F000.B00.1912090107</string>
 		<key>Board-ID</key>
-		<string>Mac-1E7E29AD0135F9BC</string>
+		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardType</key>
@@ -749,7 +819,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.60.58.0.0</string>
+		<string>1037.80.21.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -765,7 +835,7 @@
 		<key>PlatformFeature</key>
 		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,3</string>
+		<string>MacBookPro15,2</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
