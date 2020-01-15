@@ -39,76 +39,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>CNVW:_PRW to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1BSVw==</data>
-					<key>Replace</key>
-					<data>WFBSVw==</data>
-					<key>TgtBridge</key>
-					<data>Q05WVw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>GLAN:_PRW to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1BSVw==</data>
-					<key>Replace</key>
-					<data>WFBSVw==</data>
-					<key>TgtBridge</key>
-					<data>R0xBTg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>HDAS:_PRW to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1BSVw==</data>
-					<key>Replace</key>
-					<data>WFBSVw==</data>
-					<key>TgtBridge</key>
-					<data>SERBUw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>XDCI:_PRW to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1BSVw==</data>
-					<key>Replace</key>
-					<data>WFBSVw==</data>
-					<key>TgtBridge</key>
-					<data>WERDSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>XHC:_PRW to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1BSVw==</data>
-					<key>Replace</key>
-					<data>WFBSVw==</data>
-					<key>TgtBridge</key>
-					<data>WEhDXw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>RUMwXw==</data>
-					<key>Replace</key>
-					<data>RUNfXw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Rename _CRS  to XCRS</string>
 					<key>Disabled</key>
 					<false/>
@@ -265,7 +195,7 @@
 					<key>Comment</key>
 					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1BUUwE=</data>
 					<key>Replace</key>
@@ -275,7 +205,7 @@
 					<key>Comment</key>
 					<string>change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1dBSwk=</data>
 					<key>Replace</key>
@@ -301,6 +231,16 @@
 					<key>Replace</key>
 					<data>WFBSVwI=</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>RUMw</data>
+					<key>Replace</key>
+					<data>RUNf</data>
+				</dict>
 			</array>
 			<key>Rtc8Allowed</key>
 			<false/>
@@ -314,7 +254,7 @@
 			<key>Generate</key>
 			<dict>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
@@ -342,11 +282,6 @@
 		<false/>
 		<key>Timeout</key>
 		<integer>5</integer>
-	</dict>
-	<key>CPU</key>
-	<dict>
-		<key>HWPEnable</key>
-		<true/>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.14.x with native CoffeeLake support</string>
@@ -518,7 +453,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<integer>2</integer>
+				<data>AgAAAA==</data>
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
 			</dict>
@@ -682,7 +617,7 @@
 		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -729,16 +664,6 @@
 				<string>10.14.x</string>
 				<key>Replace</key>
 				<data>igKEwOtC</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>ILniAAAADzA=</data>
-				<key>Replace</key>
-				<data>ILniAAAAkJA=</data>
 			</dict>
 		</array>
 		<key>KextsToPatch</key>
@@ -799,11 +724,11 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>12/08/2019</string>
+		<string>11/14/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP153.88Z.F000.B00.1912082358</string>
+		<string>MBP153.88Z.F000.B00.1911142110</string>
 		<key>Board-ID</key>
 		<string>Mac-1E7E29AD0135F9BC</string>
 		<key>BoardManufacturer</key>
@@ -819,7 +744,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.80.21.0.0</string>
+		<string>1037.60.58.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
