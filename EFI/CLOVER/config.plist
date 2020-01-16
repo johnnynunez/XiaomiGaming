@@ -195,7 +195,7 @@
 					<key>Comment</key>
 					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X1BUUwE=</data>
 					<key>Replace</key>
@@ -215,7 +215,7 @@
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X0RTTQ==</data>
 					<key>Replace</key>
@@ -235,7 +235,7 @@
 					<key>Comment</key>
 					<string>Rename EC0 to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>RUMw</data>
 					<key>Replace</key>
@@ -254,7 +254,7 @@
 			<key>Generate</key>
 			<dict>
 				<key>PluginType</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
@@ -282,6 +282,11 @@
 		<false/>
 		<key>Timeout</key>
 		<integer>5</integer>
+	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>HWPEnable</key>
+		<true/>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.14.x with native CoffeeLake support</string>
