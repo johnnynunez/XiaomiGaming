@@ -1049,7 +1049,7 @@
 				<key>Comment</key>
 				<string>XHC-incompatible</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
