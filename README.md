@@ -46,8 +46,10 @@ Brightness key <br />
 Usb speed <br />
 Built-in camera <br />
 Built-in mic <br />
-## What's Not Working <br />
+Bluetooth Intel <br />
 Wifi Intel <br />
+
+## What's Not Working <br />
 ## Credits
 
 -[dizhenhuoshan](https://github.com/dizhenhuoshan/XiaoMiGaming-8th-Hackintosh) He has the laptop and his EFI. It brings solutions that I have not been able to fix
