@@ -51,8 +51,9 @@ Wifi Intel <br />
 
 ## What's Not Working <br />
 ## Credits
+- If your Intel Wifi not working. Be patient. Intel wifi kext really good is the [project](https://github.com/zxystd/AppleIntelWifiAdapter) of [zxystd](https://github.com/zxystd)
 
--[dizhenhuoshan](https://github.com/dizhenhuoshan/XiaoMiGaming-8th-Hackintosh) He has the laptop and his EFI. It brings solutions that I have not been able to fix
+- [dizhenhuoshan](https://github.com/dizhenhuoshan/XiaoMiGaming-8th-Hackintosh) He has the laptop and his EFI. It brings solutions that I have not been able to fix
 
 - [stevezhengshiqi](https://github.com/stevezhengshiqi) He is a good developer. I'm learning a lot about how to patch problems. Thanks for PCIList.aml and more.
 - [dggomes](https://github.com/dggomes) Nvidia Drivers Installation. 
