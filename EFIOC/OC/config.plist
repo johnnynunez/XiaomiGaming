@@ -335,7 +335,7 @@
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
-			<true/>
+			<false/>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>ShrinkMemoryMap</key>
@@ -1157,7 +1157,7 @@
 			<key>AppleXcpmCfgLock</key>
 			<true/>
 			<key>AppleXcpmExtraMsrs</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
@@ -1195,7 +1195,7 @@
 			<key>HibernateMode</key>
 			<string>Auto</string>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>HideSelf</key>
@@ -1205,7 +1205,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
