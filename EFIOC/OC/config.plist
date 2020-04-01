@@ -1315,16 +1315,14 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<true/>
 			<key>MLB</key>
-			<string>C02932100CD00008C</string>
+			<string>C029375004N0000JC</string>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,3</string>
-			<key>SystemSerialNumber</key>
-			<string>C02Z65ZGLVCG</string>
-			<key>SystemUUID</key>
-			<string>DCFD96A7-8C0D-4A70-A603-4A094097D3C4</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
