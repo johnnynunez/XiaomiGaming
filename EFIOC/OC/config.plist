@@ -96,14 +96,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Add PMCR device</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PMCR.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Add PNLF device</string>
 				<key>Enabled</key>
 				<true/>
@@ -165,6 +157,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-AWAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Add PMCR device</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PMC.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -307,7 +307,7 @@
 			<key>FadtEnableReset</key>
 			<false/>
 			<key>NormalizeHeaders</key>
-			<true/>
+			<false/>
 			<key>RebaseRegions</key>
 			<false/>
 			<key>ResetHwSig</key>
@@ -333,7 +333,7 @@
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
-			<false/>
+			<true/>
 			<key>EnableWriteUnprotector</key>
 			<true/>
 			<key>ForceExitBootServices</key>
@@ -345,7 +345,7 @@
 			<key>ProtectUefiServices</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
-			<false/>
+			<true/>
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
 			<key>SetupVirtualMap</key>
@@ -1161,7 +1161,7 @@
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>HideSelf</key>
-			<false/>
+			<true/>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
@@ -1295,14 +1295,16 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
-			<true/>
 			<key>MLB</key>
-			<string>C029375004N0000JC</string>
+			<string>C02945300QX0000A8</string>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,3</string>
+			<key>SystemSerialNumber</key>
+			<string>C02ZN0XYLVCG</string>
+			<key>SystemUUID</key>
+			<string>AA8AD6AB-E454-4F36-95ED-8E9C2FF3E89C</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1384,7 +1386,7 @@
 			<key>Resolution</key>
 			<string>Max</string>
 			<key>SanitiseClearScreen</key>
-			<true/>
+			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 		</dict>
