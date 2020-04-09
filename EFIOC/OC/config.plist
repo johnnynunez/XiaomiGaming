@@ -513,8 +513,6 @@
 				<data>mz4AAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
-				<key>enable-cfl-backlight-fix</key>
-				<integer>1</integer>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>enable-lspcon-support</key>
@@ -1240,10 +1238,6 @@
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
 				<data>ZwAAAA==</data>
-				<key>nvda_drv</key>
-				<data></data>
-				<key>prev-lang:kbd</key>
-				<data></data>
 			</dict>
 		</dict>
 		<key>Block</key>
