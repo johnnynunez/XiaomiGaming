@@ -144,14 +144,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>OSI</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Force RTC</string>
 				<key>Enabled</key>
 				<true/>
@@ -231,7 +223,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>Q1JTAKAO</data>
+				<data>FEwEX0NSUwA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -239,7 +231,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WENSU6AO</data>
+				<data>FEwEWENSUwA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -251,13 +243,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
+				<string>Rename _INI to XINI</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1NUQQCgCZNT</data>
+				<data>FEIRX0lOSQA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -265,33 +257,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WFNUQQCgCZNT</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>X09TSQ==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WE9TSQ==</data>
+				<data>FEIRWElOSQA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
