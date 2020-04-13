@@ -16,14 +16,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable discrete graphics card</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-DDGPU.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Add DMAC device</string>
 				<key>Enabled</key>
 				<true/>
@@ -68,7 +60,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-HPET.aml</string>
+				<string>SSDT-HRT.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -124,7 +116,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-SMBUS.aml</string>
+				<string>SSDT-SBUS.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -149,22 +141,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-XCPM.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>OSI</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Force RTC</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-AWAC.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -441,6 +417,10 @@
 				<data>mz4AAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>disable-external-gpu</key>
+				<data>AQAAAA==</data>
+				<key>enable-cfl-backlight-fix</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type</key>
@@ -449,10 +429,6 @@
 				<data>AQAAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-				<key>enable-cfl-backlight-fix</key>
-				<data>AQAAAA==</data>
-				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
 			<dict>
