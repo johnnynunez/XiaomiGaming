@@ -415,6 +415,8 @@
 				<data>mz4ACQ==</data>
 				<key>device_type</key>
 				<string>00AC0000 000BEC00 000000</string>
+				<key>disable-external-gpu</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type</key>
@@ -429,8 +431,6 @@
 				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>000B0A0D</string>
-				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
 			<dict>
@@ -946,7 +946,7 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 		</array>
-		<key>Delete</key>
+		<key>Block</key>
 		<array/>
 		<key>Emulate</key>
 		<dict>
