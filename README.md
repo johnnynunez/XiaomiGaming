@@ -14,6 +14,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 * macOS 10.13 High Sierra
 * macOS 10.14 Mojave
 * macOS 10.15 Catalina
+* macOS 11.00 Big Sur (Beta)
 
 ### What do I need?
 * Xiaomi Xiaomi Gaming 8th Generation 15.6" 8750h/8300h
@@ -49,6 +50,8 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 
 # Installation
 Sounds good! Where do we start? You need a computer with macOS or Windows (scroll down)
+### Big Sur
+Currently, the boot of Big Sur is supported. Please go [here](https://github.com/johnnync13/XiaomiGaming/tree/master/Big%20Sur%20Beta) and read the readme in this directory before installing.
 
 ## Clover or OpenCore?
 First let's figure out if we would like to use Clover or OpenCore. The pro's / con's listed:
