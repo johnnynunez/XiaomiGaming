@@ -39,6 +39,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 * Built-in mic 
 * Bluetooth Intel
 * FileVault Disk encryption (Always make a backup before switching on!!!)
+* FN brightness adjustment (SSDT-FN.aml Fix By [shomerchang](https://github.com/shomerchang))
 
 ### Half working:
 * [Wifi Intel]() (still buggy for now)
@@ -342,4 +343,3 @@ Use these files and this howto at your own risk. I'm not responsible in any way 
 - [alexandred](https://github.com/alexandred) Updated [Voodooi2c](https://github.com/alexandred/VoodooI2C) for maintenance
 
 - [Community Chinese](https://github.com/a565109863) Updated [Intel Wifi](https://bbs.pcbeta.org/forum.php?mod=viewthread&tid=1838489) for intel wifi and tutorial
-
