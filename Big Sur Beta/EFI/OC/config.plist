@@ -428,19 +428,6 @@
 				<key>model</key>
 				<string>???</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,3</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>layout-id</key>
-				<integer>99</integer>
-				<key>model</key>
-				<string>Realtek ALC1220</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -493,6 +480,19 @@
 				<key>model</key>
 				<string>Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<data>YwAAAA==</data>
+				<key>model</key>
+				<string>Realtek ALC1220</string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -537,7 +537,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>Audio patches</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1227,19 +1227,9 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>Kext-dev-mode=1</string>
+				<string>darkwake=0 vsmcgen=1 kext-dev-mode=1</string>
 				<key>csr-active-config</key>
-				<data>/w8AAA==</data>
-				<key>run-efi-updater</key>
-				<string>No</string>
-				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
-				<key>prev-lang:kbd</key>
-				<data>emgtSGFuczoyNTI=</data>
-				<key>booter-fileset-basesystem</key>
-				<data>AA==</data>
-				<key>booter-fileset-kernel</key>
-				<data>AA==</data>
+				<data>ZwAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1262,17 +1252,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02746404GUGDVVFB</string>
+			<string>C02746404GUGCLVFB</string>
 			<key>ROM</key>
 			<data>UHudM1KZ</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,3</string>
+			<string>MacBookPro16,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02YWPCDLVCG</string>
+			<string>C02YWPDELVCG</string>
 			<key>SystemUUID</key>
-			<string>46A8E13B-E653-47A9-BF26-0525C6BAE0AE</string>
+			<string>FB8E6C77-EE8C-4ABE-A16D-9E594DB07BA2</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1329,7 +1319,7 @@
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
-			<string>46A8E13B-E653-47A9-BF26-0525C6BAE0AE</string>
+			<string>FB8E6C77-EE8C-4ABE-A16D-9E594DB07BA2</string>
 			<key>SystemVersion</key>
 			<string></string>
 		</dict>
@@ -1340,7 +1330,7 @@
 		<key>UpdateSMBIOS</key>
 		<true/>
 		<key>UpdateSMBIOSMode</key>
-		<string>Create</string>
+		<string>Auto</string>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -1360,36 +1350,36 @@
 		<key>Audio</key>
 		<dict>
 			<key>AudioCodec</key>
-			<integer>0</integer>
+			<integer>99</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
+			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>
 			<true/>
 			<key>MinimumVolume</key>
-			<integer>50</integer>
+			<integer>20</integer>
 			<key>PlayChime</key>
 			<true/>
 			<key>VolumeAmplifier</key>
-			<integer>143</integer>
+			<integer>125</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HfsPlus.efi</string>
-			<string>OpenRuntime.efi</string>
 			<string>AudioDxe.efi</string>
-			<string>OpenCanopy.efi</string>
 			<string>CrScreenshotDxe.efi</string>
 			<string>HiiDatabase.efi</string>
 			<string>NvmExpressDxe.efi</string>
+			<string>OpenCanopy.efi</string>
+			<string>OpenRuntime.efi</string>
 			<string>OpenUsbKbDxe.efi</string>
 			<string>Ps2KeyboardDxe.efi</string>
 			<string>Ps2MouseDxe.efi</string>
 			<string>UsbMouseDxe.efi</string>
 			<string>XhciDxe.efi</string>
+			<string>HfsPlus.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1475,7 +1465,7 @@
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
-			<true/>
+			<false/>
 			<key>ReleaseUsbOwnership</key>
 			<true/>
 			<key>RequestBootVarRouting</key>
