@@ -50,8 +50,6 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 
 # Installation
 Sounds good! Where do we start? You need a computer with macOS or Windows (scroll down)
-### Big Sur
-Currently, the boot of Big Sur is supported. Please go [here](https://github.com/johnnync13/XiaomiGaming/tree/master/Big%20Sur%20Beta) and read the readme in this directory before installing.
 
 ## Clover or OpenCore?
 First let's figure out if we would like to use Clover or OpenCore. The pro's / con's listed:

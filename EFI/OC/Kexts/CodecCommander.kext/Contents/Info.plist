@@ -235,6 +235,10 @@
 							<true/>
 						</dict>
 						<dict>
+							<key>Command</key>
+							<data>
+							AhcIgw==
+							</data>
 							<key>Comment</key>
 							<string>0x21 SET_UNSOLICITED_ENABLE 0x83</string>
 							<key>On Init</key>
