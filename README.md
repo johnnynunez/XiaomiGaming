@@ -48,6 +48,13 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 ### Not working:
 * Nvidia GPU (Not supported under macOS and probably never will be)
 
+### Better WiFi solution
+You can buy the network card that can be driven by MacOS as shown in the picture. It is recommended to use the wireless network card removed from the Mac. You only need to use the adapter board and insert it into the PCIe slot on the motherboard. You can use it without any driver.
+
+If you do not plan to use the WiFi network card provided by the machine, you can also use the coaxial extension line to link the wifi antenna provided by the machine, or purchase and install the wifi antenna separately as shown in the figure. However, please note that the wifi antenna cannot be attached to any surface containing metal, or it will greatly affect the signal strength. You can choose to paste the antenna on a non-metallic surface, as shown in the figure
+
+![image](https://github.com/johnnync13/XiaomiGaming/raw/master/images/WIFI.png)
+
 # Installation
 Sounds good! Where do we start? You need a computer with macOS or Windows (scroll down)
 
