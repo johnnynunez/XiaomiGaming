@@ -44,6 +44,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 
 ### Half working:
 * [Wifi Intel]() (still buggy for now)
+* [Wifi Intel Gui](https://github.com/1hbb/OpenIntelWireless-Factory/releases)
 
 ### Not working:
 * Nvidia GPU (Not supported under macOS and probably never will be)
