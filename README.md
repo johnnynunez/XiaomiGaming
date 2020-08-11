@@ -41,6 +41,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 * Bluetooth Intel
 * FileVault Disk encryption (Always make a backup before switching on!!!)
 * FN brightness adjustment (SSDT-FN.aml Fix By [shomerchang](https://github.com/shomerchang))
+* Card Reader
 
 ### Half working:
 * [Wifi Intel]() (still buggy for now)
