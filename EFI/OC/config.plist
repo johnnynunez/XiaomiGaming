@@ -251,7 +251,7 @@
 			<key>RebaseRegions</key>
 			<false/>
 			<key>ResetHwSig</key>
-			<true/>
+			<false/>
 			<key>ResetLogoStatus</key>
 			<false/>
 		</dict>
@@ -265,7 +265,7 @@
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
-			<false/>
+			<true/>
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
@@ -1203,7 +1203,7 @@
 			<key>ThirdPartyDrives</key>
 			<true/>
 			<key>XhciPortLimit</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -1405,7 +1405,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02XLGZQJHCC</string>
 			<key>SystemUUID</key>
-			<string>A8C1965E-73A8-4501-8B22-A5010397FBA7</string>
+			<string>36AB0B77-DF02-4D08-979B-305ACE04BFBF</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1424,7 +1424,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02XLGZQJHCC</string>
 			<key>SystemUUID</key>
-			<string>A8C1965E-73A8-4501-8B22-A5010397FBA7</string>
+			<string>36AB0B77-DF02-4D08-979B-305ACE04BFBF</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
