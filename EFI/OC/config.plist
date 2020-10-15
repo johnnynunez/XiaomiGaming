@@ -34,7 +34,7 @@
 				<key>Comment</key>
 				<string>KeyBoard</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-FN.aml</string>
 			</dict>
@@ -1175,8 +1175,6 @@
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
-			<false/>
-			<key>DummyPowerManagement</key>
 			<false/>
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
